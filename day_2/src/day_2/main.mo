@@ -96,6 +96,6 @@ actor {
                 };
             };
         };
-        return param;
+        return Array.freeze(array);
     };
 };
