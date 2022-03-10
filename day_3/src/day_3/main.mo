@@ -98,5 +98,5 @@ actor {
 
     public func test_challenge_10(array : [Nat], a : Nat) : async Bool {
         return Module.contains<Nat>(array, a, f);
-    }
+    };
 };
